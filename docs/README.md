@@ -4,15 +4,17 @@
 
 # Dokumentacja Projektu
 
-Katalog przeznaczony na dokumentację merytoryczną, biznesową i architektoniczną **tego konkretnego projektu** (np. GDD, specyfikacje API, modele bazy danych).
+Katalog przeznaczony na dokumentację merytoryczną, architektoniczną i specyfikacje **tego konkretnego projektu**.
 
 ---
 
-## 1. Struktura Dokumentacji
+## 1. Struktura i Podkatalogi Dokumentacji
 
-| Sekcja | Ścieżka | Opis |
-| :--- | :--- | :--- |
-| [Rejestr Decyzji (ADR)](adr/README.md) | [docs/adr/](adr/README.md) | Historia i uzasadnienie decyzji technologicznych |
+| Sekcja | Ścieżka | Status | Kiedy stosować? |
+| :--- | :--- | :--- | :--- |
+| [Rejestr Decyzji (ADR)](adr/README.md) | [docs/adr/](adr/README.md) | 🔴 `[WYMAGANY]` | W każdym projekcie do rejestrowania kluczowych wyborów technologicznych |
+| [Architektura Projektu](architecture/README.md) | [docs/architecture/](architecture/README.md) | 🟡 `[ZALECANY]` | W projektach posiadających diagramy, modele bazy danych lub wiele modułów |
+| [Specyfikacja API](api/README.md) | [docs/api/](api/README.md) | ⚪ `[OPCJONALNY]` | Gdy projekt wystawia lub konsumuje API zewnętrzne / IPC / kontrakty |
 
 ---
 

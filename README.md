@@ -8,19 +8,19 @@ Oficjalny szablon startowy dla pojedynczych aplikacji, bibliotek, gier i narzęd
 
 ---
 
-## 1. Struktura Katalogów
+## 1. Struktura Katalogów i Statusy
 
-Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Single-App**:
+Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Single-App**. Szablon udostępnia ustandaryzowaną strukturę (z nadwyżką), w której każdy folder posiada określony status:
 
-| Katalog | Opis |
-| :--- | :--- |
-| [src/](src/README.md) | Główny kod źródłowy aplikacji |
-| [tests/](tests/README.md) | Globalne testy integracyjne / E2E |
-| [docs/](docs/README.md) | Dokumentacja projektowa, GDD, ADR-y |
-| [assets/](assets/README.md) | Zasoby statyczne (grafiki, audio, modele 3D) |
-| [data/](data/README.md) | Lokalne bazy SQLite, zrzuty JSON, dane dev (ignorowane) |
-| [scripts/](scripts/README.md) | Automatyzacja (Node.js, bash, Python) [w C++ alternatywnie tools/] |
-| [.agents/](.agents/rules/project.md) | Reguły i instrukcje domenowe dla systemów AI |
+| Katalog | Status | Kiedy stosować? |
+| :--- | :--- | :--- |
+| [src/](src/README.md) | 🔴 `[WYMAGANY]` | Zawsze — główny kod źródłowy aplikacji |
+| [docs/](docs/README.md) | 🔴 `[WYMAGANY]` | Zawsze — dokumentacja projektu, GDD, [rejestr ADR](docs/adr/README.md) |
+| [tests/](tests/README.md) | 🟡 `[ZALECANY]` | Gdy projekt posiada testy [E2E](tests/e2e/README.md) lub [integracyjne](tests/integration/README.md) |
+| [assets/](assets/README.md) | ⚪ `[OPCJONALNY]` | Gdy aplikacja posiada grafiki, audio, modele 3D, pliki do druku/PnP |
+| [data/](data/README.md) | ⚪ `[OPCJONALNY]` | Gdy aplikacja korzysta z lokalnej bazy SQLite, zrzutów JSON lub cache |
+| [scripts/](scripts/README.md) | ⚪ `[OPCJONALNY]` | Gdy projekt wymaga skryptów pomocniczych (w C++ alternatywnie `tools/`) |
+| [.agents/](.agents/rules/project.md) | 🔴 `[WYMAGANY]` | Zawsze — reguły i wytyczne domenowe dla systemów AI |
 
 > [!CAUTION]
 > **Zakaz Samowolki Folderowej i Plikowej**
