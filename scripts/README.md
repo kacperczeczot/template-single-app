@@ -4,6 +4,8 @@
 
 # `scripts/` (Automatyzacja)
 
+* **Status:** ⚪ `[OPCJONALNY]`
+
 Katalog przeznaczony na skrypty pomocnicze, migracje bazy, deployment i automatyzację CI (Node.js, bash, Python).
 
 ---

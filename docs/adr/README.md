@@ -2,7 +2,9 @@
 
 ---
 
-# `adr/` (Architecture Decision Records)
+# `docs/adr/` (Architecture Decision Records)
+
+* **Status:** 🔴 `[WYMAGANY]`
 
 Katalog przeznaczony na rejestr decyzji architektonicznych (ADR).
-Każda kluczowa zmiana technologiczna lub strukturalna powinna zostać udokumentowana jako plik w formacie `0001-tytul-decyzji.md`.
+Każda kluczowa zmiana technologiczna lub strukturalna powinna zostać udokumentowana jako nowy plik w oparciu o wzorzec [`0000-szablon-decyzji.md`](0000-szablon-decyzji.md).
