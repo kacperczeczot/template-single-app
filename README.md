@@ -1,7 +1,3 @@
-[Strona główna](README.md)
-
----
-
 # Single-App Project Template
 
 Oficjalny szablon startowy dla pojedynczych aplikacji, bibliotek, gier i narzędzi jednozadaniowych w naszym ekosystemie.
