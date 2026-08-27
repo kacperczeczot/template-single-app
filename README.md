@@ -20,7 +20,7 @@ Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Sing
 | [assets/](assets/README.md) | Zasoby statyczne (grafiki, audio, modele 3D) |
 | [data/](data/README.md) | Lokalne bazy SQLite, zrzuty JSON, dane dev (ignorowane) |
 | [scripts/](scripts/README.md) | Automatyzacja (Node.js, bash, Python) [w C++ alternatywnie tools/] |
-| [.agents/](.agents/rules/universal.md) | Reguły i instrukcje dla systemów AI |
+| [.agents/](.agents/rules/project.md) | Reguły i instrukcje domenowe dla systemów AI |
 
 > [!CAUTION]
 > **Zakaz Samowolki Folderowej i Plikowej**
@@ -28,11 +28,11 @@ Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Sing
 
 ---
 
-## 2. Dokumentacja Projektu
+## 2. Dokumentacja i Standardy
 
 | Sekcja | Ścieżka | Opis |
 | :--- | :--- | :--- |
-| [Baza Dokumentacji](docs/README.md) | [docs/README.md](docs/README.md) | Centralny hub dokumentacji |
-| [Architektura](docs/architecture/RULES.md) | [docs/architecture/RULES.md](docs/architecture/RULES.md) | Reguły architektoniczne i czystość kodu |
+| [Dokumentacja Projektu](docs/README.md) | [docs/README.md](docs/README.md) | Centralny hub dokumentacji projektu |
 | [Rejestr Decyzji (ADR)](docs/adr/README.md) | [docs/adr/README.md](docs/adr/README.md) | Rejestr Decyzji Architektonicznych |
-| [Reguły AI](.agents/rules/universal.md) | [.agents/rules/universal.md](.agents/rules/universal.md) | Standardy współpracy z AI |
+| [Globalne Standardy DevEx](../devex-standards/README.md) | [devex-standards](../devex-standards/README.md) | Nadrzędne reguły inżynieryjne (Zod, Result, Root) |
+| [Reguły AI Projektu](.agents/rules/project.md) | [.agents/rules/project.md](.agents/rules/project.md) | Wytyczne domenowe dla asystentów AI |

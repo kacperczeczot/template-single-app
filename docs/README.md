@@ -4,9 +4,19 @@
 
 # Dokumentacja Projektu
 
-## Zawartość
+Katalog przeznaczony na dokumentację merytoryczną, biznesową i architektoniczną **tego konkretnego projektu** (np. GDD, specyfikacje API, modele bazy danych).
+
+---
+
+## 1. Struktura Dokumentacji
 
 | Sekcja | Ścieżka | Opis |
 | :--- | :--- | :--- |
-| [Architektura](architecture/RULES.md) | `docs/architecture/RULES.md` | Zasady architektury i czystości struktury |
-| [ADR](adr/README.md) | `docs/adr/README.md` | Rejestr Decyzji Architektonicznych |
+| [Rejestr Decyzji (ADR)](adr/README.md) | [docs/adr/](adr/README.md) | Historia i uzasadnienie decyzji technologicznych |
+
+---
+
+## 2. Standardy Inżynieryjne (Globalne)
+
+Projekt dziedziczy wszystkie fundamentalne standardy architektoniczne, zasady czystości kodu oraz reguły AI z centralnego repozytorium:
+👉 [Standardy Architektury i DevEx (devex-standards)](../../devex-standards/docs/README.md)
