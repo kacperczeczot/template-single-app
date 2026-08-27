@@ -32,6 +32,7 @@ Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Sing
 
 | Sekcja | Ścieżka | Opis |
 | :--- | :--- | :--- |
+| [Standardy Projektu](docs/STANDARDS.md) | [docs/STANDARDS.md](docs/STANDARDS.md) | Deklaracja zgodności ze standardami, progi testów |
 | [Dokumentacja Projektu](docs/README.md) | [docs/README.md](docs/README.md) | Centralny hub dokumentacji projektu |
 | [Rejestr Decyzji (ADR)](docs/adr/README.md) | [docs/adr/README.md](docs/adr/README.md) | Rejestr Decyzji Architektonicznych |
 | [Globalne Standardy DevEx](../devex-standards/README.md) | [devex-standards](../devex-standards/README.md) | Nadrzędne reguły inżynieryjne (Zod, Result, Root) |
