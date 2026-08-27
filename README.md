@@ -18,8 +18,7 @@ Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Sing
 ├── docs/          # Dokumentacja projektowa, GDD, ADR-y
 ├── assets/        # Zasoby statyczne (grafiki, audio, modele 3D)
 ├── data/          # Lokalne bazy SQLite, zrzuty JSON, dane dev (ignorowane)
-├── scripts/       # Lekka automatyzacja (Node.js, bash)
-├── tools/         # Ciężkie narzędzia kompilacji / symulacje (C++, Rust)
+├── scripts/       # Automatyzacja (Node.js, bash, Python) [w C++ alternatywnie tools/]
 └── .agents/       # Reguły i instrukcje dla systemów AI
 ```
 
