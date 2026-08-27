@@ -17,6 +17,7 @@ Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Sing
 | [src/](src/README.md) | 🔴 `[WYMAGANY]` | Zawsze — główny kod źródłowy aplikacji |
 | [docs/](docs/README.md) | 🔴 `[WYMAGANY]` | Zawsze — dokumentacja projektu, GDD, [rejestr ADR](docs/adr/README.md) |
 | [tests/](tests/README.md) | 🟡 `[ZALECANY]` | Gdy projekt posiada testy [E2E](tests/e2e/README.md) lub [integracyjne](tests/integration/README.md) |
+| [public/](public/README.md) | ⚪ `[OPCJONALNY]` | Gdy aplikacja webowa wymaga plików serwowanych wprost (robots.txt, favicon, CMS) |
 | [assets/](assets/README.md) | ⚪ `[OPCJONALNY]` | Gdy aplikacja posiada grafiki, audio, modele 3D, pliki do druku/PnP |
 | [data/](data/README.md) | ⚪ `[OPCJONALNY]` | Gdy aplikacja korzysta z lokalnej bazy SQLite, zrzutów JSON lub cache |
 | [scripts/](scripts/README.md) | ⚪ `[OPCJONALNY]` | Gdy projekt wymaga skryptów pomocniczych (w C++ alternatywnie `tools/`) |
