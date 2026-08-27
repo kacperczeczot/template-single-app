@@ -4,7 +4,7 @@
 
 # Standardy Inżynieryjne Projektu
 
-Niniejszy projekt został zainicjalizowany na bazie szablonu **[template-single-app](../../template-single-app/README.md)** i bezwzględnie przestrzega globalnych reguł zdefiniowanych w centralnej Konstytucji **[devex-standards](../../devex-standards/README.md)**.
+Niniejszy projekt został zainicjalizowany na bazie szablonu **[template-single-app](https://github.com/kacperczeczot/template-single-app)** i bezwzględnie przestrzega globalnych reguł zdefiniowanych w centralnej Konstytucji **[devex-standards](https://github.com/kacperczeczot/devex-standards)**.
 
 ---
 
@@ -32,5 +32,6 @@ Projekt stosuje zasadę pragmatycznego pokrycia per warstwa (brak gonienia ogól
 
 ## 3. Nadrzędne Źródło Prawdy (SSOT)
 Szczegółowe zasady kodu (Zod, Result Object, CSS Modules, Czystość Root, Reguły AI) dziedziczone są z:
-👉 **[devex-standards/docs/architecture/RULES.md](../../devex-standards/docs/architecture/RULES.md)**
-👉 **[devex-standards/docs/tooling/RULES.md](../../devex-standards/docs/tooling/RULES.md)**
+👉 **[devex-standards / Architecture Rules](https://github.com/kacperczeczot/devex-standards/blob/main/docs/architecture/RULES.md)**
+👉 **[devex-standards / Tooling Rules](https://github.com/kacperczeczot/devex-standards/blob/main/docs/tooling/RULES.md)**
+

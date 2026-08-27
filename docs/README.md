@@ -23,4 +23,4 @@ Katalog przeznaczony na dokumentację merytoryczną, architektoniczną i specyfi
 ## 2. Standardy Inżynieryjne (Globalne)
 
 Projekt dziedziczy wszystkie fundamentalne standardy architektoniczne, zasady czystości kodu oraz reguły AI z centralnego repozytorium:
-👉 [Standardy Architektury i DevEx (devex-standards)](../../devex-standards/docs/README.md)
+👉 [Standardy Architektury i DevEx (devex-standards)](https://github.com/kacperczeczot/devex-standards)

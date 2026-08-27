@@ -35,6 +35,6 @@ Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Sing
 | [Standardy Projektu (`docs/STANDARDS.md`)](docs/STANDARDS.md) | Deklaracja zgodności ze standardami, progi testów |
 | [Dokumentacja Projektu (`docs/README.md`)](docs/README.md) | Centralny hub dokumentacji projektu |
 | [Rejestr Decyzji ADR (`docs/adr/`)](docs/adr/README.md) | Rejestr Decyzji Architektonicznych |
-| [Globalne Standardy DevEx (`devex-standards`)](../devex-standards/README.md) | Nadrzędne reguły inżynieryjne (Zod, Result, Root) |
+| [Globalne Standardy DevEx (`devex-standards`)](https://github.com/kacperczeczot/devex-standards) | Nadrzędne reguły inżynieryjne (Zod, Result, Root) |
 | [Reguły AI Projektu (`.agents/rules/project.md`)](.agents/rules/project.md) | Wytyczne domenowe dla asystentów AI |
 
