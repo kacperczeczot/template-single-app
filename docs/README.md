@@ -12,10 +12,11 @@ Katalog przeznaczony na dokumentację merytoryczną, architektoniczną i specyfi
 
 | Sekcja | Ścieżka | Status | Kiedy stosować? |
 | :--- | :--- | :--- | :--- |
-| [Standardy Inżynieryjne](STANDARDS.md) | [docs/STANDARDS.md](STANDARDS.md) | 🔴 `[WYMAGANY]` | Zgodność ze standardami zewnętrznymi, progi coverage, link do SSOT |
-| [Rejestr Decyzji (ADR)](adr/README.md) | [docs/adr/](adr/README.md) | 🔴 `[WYMAGANY]` | W każdym projekcie do rejestrowania kluczowych wyborów technologicznych |
-| [Architektura Projektu](architecture/README.md) | [docs/architecture/](architecture/README.md) | 🟡 `[ZALECANY]` | W projektach posiadających diagramy, modele bazy danych lub wiele modułów |
-| [Specyfikacja API](api/README.md) | [docs/api/](api/README.md) | ⚪ `[OPCJONALNY]` | Gdy projekt wystawia lub konsumuje API zewnętrzne / IPC / kontrakty |
+| Standardy Inżynieryjne | [docs/STANDARDS.md](STANDARDS.md) | 🔴 `[WYMAGANY]` | Zgodność ze standardami zewnętrznymi, progi coverage, link do SSOT |
+| Rejestr Decyzji (ADR) | [docs/adr/](adr/README.md) | 🔴 `[WYMAGANY]` | W każdym projekcie do rejestrowania kluczowych wyborów technologicznych |
+| Architektura Projektu | [docs/architecture/](architecture/README.md) | 🟡 `[ZALECANY]` | W projektach posiadających diagramy, modele bazy danych lub wiele modułów |
+| Specyfikacja API | [docs/api/](api/README.md) | ⚪ `[OPCJONALNY]` | Gdy projekt wystawia lub konsumuje API zewnętrzne / IPC / kontrakty |
+
 
 ---
 
