@@ -12,15 +12,15 @@ Oficjalny szablon startowy dla pojedynczych aplikacji, bibliotek, gier i narzęd
 
 Projekt ściśle przestrzega zamkniętego kanonu katalogu `root` w modelu **Single-App**:
 
-```text
-├── src/           # Główny kod źródłowy aplikacji
-├── tests/         # Globalne testy integracyjne / E2E
-├── docs/          # Dokumentacja projektowa, GDD, ADR-y
-├── assets/        # Zasoby statyczne (grafiki, audio, modele 3D)
-├── data/          # Lokalne bazy SQLite, zrzuty JSON, dane dev (ignorowane)
-├── scripts/       # Automatyzacja (Node.js, bash, Python) [w C++ alternatywnie tools/]
-└── .agents/       # Reguły i instrukcje dla systemów AI
-```
+| Katalog | Opis |
+| :--- | :--- |
+| [src/](src/README.md) | Główny kod źródłowy aplikacji |
+| [tests/](tests/README.md) | Globalne testy integracyjne / E2E |
+| [docs/](docs/README.md) | Dokumentacja projektowa, GDD, ADR-y |
+| [assets/](assets/README.md) | Zasoby statyczne (grafiki, audio, modele 3D) |
+| [data/](data/README.md) | Lokalne bazy SQLite, zrzuty JSON, dane dev (ignorowane) |
+| [scripts/](scripts/README.md) | Automatyzacja (Node.js, bash, Python) [w C++ alternatywnie tools/] |
+| [.agents/](.agents/rules/universal.md) | Reguły i instrukcje dla systemów AI |
 
 > [!CAUTION]
 > **Zakaz Samowolki Folderowej i Plikowej**
